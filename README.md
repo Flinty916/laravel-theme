@@ -4,6 +4,8 @@ Laravel-Theme is a theme management for Laravel 5+, it is the easiest way to org
 
 This package is based on [teepluss\theme](https://github.com/teepluss/laravel-theme/)
 
+## Fork Updates Package to work with Laravel 7.4 (removes deprecated array functions)
+
 >##### Differences with teepluss version:
 >- Compatible with laravel 5.4+.
 >- Removed twig compatibility (Reduces the package by 94%).
