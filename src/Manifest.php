@@ -93,7 +93,7 @@ class Manifest
 	 */
 	public function getProperty($key, $default = null)
 	{
-		return array_get($this->getJsonContents(), $key, $default);
+		return Arr::get($this->getJsonContents(), $key, $default);
 	}
 
 	/**
