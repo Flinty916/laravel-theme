@@ -1,6 +1,7 @@
 <?php namespace Facuz\Theme;
 
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Arr;
 
 class Manifest
 {
